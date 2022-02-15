@@ -1,4 +1,14 @@
 @import 'config';
 
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
 // Media queries go at the end
 @import 'media';
