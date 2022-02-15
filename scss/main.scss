@@ -19,6 +19,7 @@ ul {
 body {
 	min-height: 100vh;
 	@extend %flex-center;
+	flex-direction: column;
 	font-family: $font-body;
 	background: $clr-bg;
 	color: $clr-white;
@@ -32,6 +33,13 @@ h4,
 h5,
 h6 {
 	font-family: $font-headings;
+}
+
+// Stats Card
+.stats {
+	@extend %flex-center;
+	flex-direction: column;
+	max-width: $max-width;
 }
 
 // Media queries go at the end

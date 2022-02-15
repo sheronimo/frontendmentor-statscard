@@ -10,7 +10,7 @@ ul {
   list-style: none;
 }
 
-body {
+body, .stats {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -24,6 +24,10 @@ body {
 
 body {
   min-height: 100vh;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   font-family: "Lexend Deca", sans-serif;
   background: #090b1a;
   color: white;
@@ -37,5 +41,13 @@ h4,
 h5,
 h6 {
   font-family: "Inter", sans-serif;
+}
+
+.stats {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 1110px;
 }
 /*# sourceMappingURL=main.css.map */
