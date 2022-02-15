@@ -100,5 +100,21 @@ h6 {
 	}
 }
 
+.attribution {
+	font-size: 0.75rem;
+	text-align: center;
+	margin-top: 2rem;
+}
+
+.attribution a {
+	text-decoration: none;
+	color: hsl(228, 45%, 44%);
+	transition: color 0.3s ease;
+
+	&:hover {
+		color: $clr-accent;
+	}
+}
+
 // Media queries go at the end
 @import 'media';
