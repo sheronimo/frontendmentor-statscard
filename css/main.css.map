@@ -1,8 +1,10 @@
 {
     "version": 3,
-    "mappings": "",
+    "mappings": "ACCA,OAAO,CAAC,kGAAI",
     "sources": [
-        "../scss/main.scss"
+        "../scss/main.scss",
+        "../scss/_config.scss",
+        "../scss/_media.scss"
     ],
     "names": [],
     "file": "main.css"
