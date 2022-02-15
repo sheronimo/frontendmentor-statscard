@@ -52,10 +52,13 @@ h6 {
 		display: block;
 		width: 100%;
 		min-height: 240px;
-		background: url('../images/image-header-mobile.jpg') $clr-accent;
+		background-image: url('../images/image-header-mobile.jpg');
+		background-color: $clr-accent;
 		background-repeat: no-repeat;
 		background-size: cover;
 		background-blend-mode: multiply;
+		border-top-left-radius: 5px;
+		border-top-right-radius: 5px;
 	}
 
 	// Content Area

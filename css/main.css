@@ -62,10 +62,13 @@ h6 {
   display: block;
   width: 100%;
   min-height: 240px;
-  background: url("../images/image-header-mobile.jpg") #aa5cdb;
+  background-image: url("../images/image-header-mobile.jpg");
+  background-color: #aa5cdb;
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
 }
 
 .stats-content {
@@ -117,9 +120,9 @@ h6 {
         -ms-flex-order: 2;
             order: 2;
     min-height: 100%;
-    background: url("../images/image-header-desktop.jpg") #aa5cdb;
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-image: url("../images/image-header-desktop.jpg");
+    border-top-left-radius: 0;
+    border-bottom-right-radius: 5px;
   }
   .stats-content {
     text-align: left;
