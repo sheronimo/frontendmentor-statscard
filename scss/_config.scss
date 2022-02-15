@@ -1,0 +1,21 @@
+// Font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
+
+$max-width: 1110px;
+
+// Main background
+$clr-bg: hsl(233, 47%, 7%);
+// Card background
+$clr-card: hsl(244, 38%, 16%);
+// Accent
+$clr-accent: hsl(277, 64%, 61%);
+
+// Main heading, stats
+$clr-white: hsl(0, 0%, 100%);
+// Main paragraph
+$clr-white-75: hsla(0, 0%, 100%, 0.75);
+// Stat headings
+$clr-white-60: hsla(0, 0%, 100%, 0.6);
+
+$font-body: 'Lexend Deca', sans-serif;
+$font-headings: 'Inter', sans-serif;
