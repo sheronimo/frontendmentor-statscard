@@ -69,6 +69,13 @@ h6 {
 		font-size: 1.6rem;
 		margin-bottom: 1rem;
 	}
+
+	&-desc {
+		font-size: 0.9rem;
+		color: $clr-white-75;
+		line-height: 1.7;
+		margin-bottom: 3rem;
+	}
 }
 
 // Media queries go at the end
