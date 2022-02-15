@@ -10,5 +10,29 @@ ul {
 	list-style: none;
 }
 
+%flex-center {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+body {
+	min-height: 100vh;
+	@extend %flex-center;
+	font-family: $font-body;
+	background: $clr-bg;
+	color: $clr-white;
+	padding: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	font-family: $font-headings;
+}
+
 // Media queries go at the end
 @import 'media';

@@ -9,4 +9,33 @@
 ul {
   list-style: none;
 }
+
+body {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+body {
+  min-height: 100vh;
+  font-family: "Lexend Deca", sans-serif;
+  background: #090b1a;
+  color: white;
+  padding: 1.5rem;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Inter", sans-serif;
+}
 /*# sourceMappingURL=main.css.map */
