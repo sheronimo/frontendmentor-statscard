@@ -32,6 +32,7 @@ body {
   background: #090b1a;
   color: white;
   padding: 1.5rem;
+  line-height: 1.5;
 }
 
 h1,
@@ -41,6 +42,10 @@ h4,
 h5,
 h6 {
   font-family: "Inter", sans-serif;
+}
+
+.text-highlight {
+  color: #aa5cdb;
 }
 
 .stats {
@@ -62,5 +67,16 @@ h6 {
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
+}
+
+.stats-content {
+  text-align: center;
+  padding: 2.5rem 2rem;
+}
+
+.stats-heading {
+  line-height: 1.2;
+  font-size: 1.6rem;
+  margin-bottom: 1rem;
 }
 /*# sourceMappingURL=main.css.map */
