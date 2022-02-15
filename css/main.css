@@ -49,5 +49,18 @@ h6 {
       -ms-flex-direction: column;
           flex-direction: column;
   max-width: 1110px;
+  background: #1b1938;
+  border-radius: 5px;
+}
+
+.stats-img {
+  display: block;
+  max-width: 100%;
+  width: 100%;
+  height: 240px;
+  background: url("../images/image-header-mobile.jpg") #aa5cdb;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
 }
 /*# sourceMappingURL=main.css.map */
