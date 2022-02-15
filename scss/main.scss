@@ -23,7 +23,7 @@ body {
 	font-family: $font-body;
 	background: $clr-bg;
 	color: $clr-white;
-	padding: 1.5rem;
+	padding: 5rem 1.5rem;
 	line-height: 1.5;
 }
 
@@ -42,17 +42,16 @@ h6 {
 
 // Stats Card
 .stats {
-	@extend %flex-center;
-	flex-direction: column;
-	max-width: $max-width;
+	display: grid;
+	grid-template-columns: 1fr;
+	max-width: $max-width-mobile;
 	background: $clr-card;
 	border-radius: 5px;
 
 	&-img {
 		display: block;
-		max-width: 100%;
 		width: 100%;
-		height: 240px;
+		min-height: 240px;
 		background: url('../images/image-header-mobile.jpg') $clr-accent;
 		background-repeat: no-repeat;
 		background-size: cover;

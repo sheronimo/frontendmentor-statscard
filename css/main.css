@@ -10,7 +10,7 @@ ul {
   list-style: none;
 }
 
-body, .stats, .stats-details {
+body, .stats-details {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -31,7 +31,7 @@ body {
   font-family: "Lexend Deca", sans-serif;
   background: #090b1a;
   color: white;
-  padding: 1.5rem;
+  padding: 5rem 1.5rem;
   line-height: 1.5;
 }
 
@@ -49,20 +49,19 @@ h6 {
 }
 
 .stats {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
-  max-width: 1110px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: 1fr;
+      grid-template-columns: 1fr;
+  max-width: 330px;
   background: #1b1938;
   border-radius: 5px;
 }
 
 .stats-img {
   display: block;
-  max-width: 100%;
   width: 100%;
-  height: 240px;
+  min-height: 240px;
   background: url("../images/image-header-mobile.jpg") #aa5cdb;
   background-repeat: no-repeat;
   background-size: cover;
@@ -105,5 +104,42 @@ h6 {
   font-size: 0.75rem;
   letter-spacing: 1px;
   margin-top: 0.2rem;
+}
+
+@media (min-width: 1024px) {
+  .stats {
+    -ms-grid-columns: (1fr)[2];
+        grid-template-columns: repeat(2, 1fr);
+    max-width: 1110px;
+  }
+  .stats-img {
+    -webkit-box-ordinal-group: 3;
+        -ms-flex-order: 2;
+            order: 2;
+    min-height: 100%;
+    background: url("../images/image-header-desktop.jpg") #aa5cdb;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .stats-content {
+    text-align: left;
+    padding: 4.5rem 6.5rem 4rem 4.5rem;
+  }
+  .stats-heading {
+    font-size: 2.2rem;
+    margin-bottom: 1.5rem;
+  }
+  .stats-desc {
+    margin-bottom: 4rem;
+  }
+  .stats-details {
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
 }
 /*# sourceMappingURL=main.css.map */

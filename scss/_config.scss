@@ -1,7 +1,9 @@
 // Font
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Lexend+Deca&display=swap');
 
-$max-width: 1110px;
+$max-width-desktop: 1110px;
+$max-width-mobile: 330px;
+$breakpoint: 1024px;
 
 // Main background
 $clr-bg: hsl(233, 47%, 7%);
