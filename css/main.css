@@ -2,32 +2,22 @@
 * {
   margin: 0;
   padding: 0;
-  -webkit-box-sizing: border-box;
-          box-sizing: border-box;
+  box-sizing: border-box;
 }
 
 ul {
   list-style: none;
 }
 
-body, .stats-details {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.stats-details, body {
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
 }
 
 body {
   min-height: 100vh;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   font-family: "Lexend Deca", sans-serif;
   background: #090b1a;
   color: white;
@@ -49,15 +39,12 @@ h6 {
 }
 
 .stats {
-  display: -ms-grid;
   display: grid;
-  -ms-grid-columns: 1fr;
-      grid-template-columns: 1fr;
+  grid-template-columns: 1fr;
   max-width: 330px;
   background: #1b1938;
   border-radius: 5px;
 }
-
 .stats-img {
   display: block;
   width: 100%;
@@ -70,37 +57,28 @@ h6 {
   border-top-left-radius: 5px;
   border-top-right-radius: 5px;
 }
-
 .stats-content {
   text-align: center;
   padding: 2.5rem 2rem;
 }
-
 .stats-heading {
   line-height: 1.2;
   font-size: 1.7rem;
   margin-bottom: 1rem;
 }
-
 .stats-desc {
   font-size: 0.9rem;
   color: rgba(255, 255, 255, 0.75);
   line-height: 1.7;
   margin-bottom: 2.5rem;
 }
-
 .stats-details {
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   gap: 1.5rem;
 }
-
 .stats-num {
   font-size: 1.5rem;
 }
-
 .stats-type {
   color: rgba(255, 255, 255, 0.6);
   text-transform: uppercase;
@@ -118,24 +96,19 @@ h6 {
 .attribution a {
   text-decoration: none;
   color: #3e52a3;
-  -webkit-transition: color 0.3s ease;
   transition: color 0.3s ease;
 }
-
 .attribution a:hover {
   color: #aa5cdb;
 }
 
 @media (min-width: 1024px) {
   .stats {
-    -ms-grid-columns: (1fr)[2];
-        grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     max-width: 1110px;
   }
   .stats-img {
-    -webkit-box-ordinal-group: 3;
-        -ms-flex-order: 2;
-            order: 2;
+    order: 2;
     min-height: 100%;
     background-image: url("../images/image-header-desktop.jpg");
     border-top-left-radius: 0;
@@ -153,13 +126,7 @@ h6 {
     margin-bottom: 4rem;
   }
   .stats-details {
-    -webkit-box-orient: horizontal;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: row;
-            flex-direction: row;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    flex-direction: row;
+    justify-content: space-between;
   }
-}
-/*# sourceMappingURL=main.css.map */
+}/*# sourceMappingURL=main.css.map */
