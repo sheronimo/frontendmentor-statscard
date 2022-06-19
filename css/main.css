@@ -19,8 +19,8 @@ body {
   min-height: 100vh;
   flex-direction: column;
   font-family: "Lexend Deca", sans-serif;
-  background: #090b1a;
-  color: white;
+  background: hsl(233deg, 47%, 7%);
+  color: hsl(0deg, 0%, 100%);
   padding: 5rem 1.5rem;
   line-height: 1.5;
 }
@@ -35,14 +35,14 @@ h6 {
 }
 
 .text-highlight {
-  color: #aa5cdb;
+  color: hsl(277deg, 64%, 61%);
 }
 
 .stats {
   display: grid;
   grid-template-columns: 1fr;
   max-width: 330px;
-  background: #1b1938;
+  background: hsl(244deg, 38%, 16%);
   border-radius: 5px;
 }
 .stats-img {
@@ -50,7 +50,7 @@ h6 {
   width: 100%;
   min-height: 240px;
   background-image: url("../images/image-header-mobile.jpg");
-  background-color: #aa5cdb;
+  background-color: hsl(277deg, 64%, 61%);
   background-repeat: no-repeat;
   background-size: cover;
   background-blend-mode: multiply;
@@ -68,7 +68,7 @@ h6 {
 }
 .stats-desc {
   font-size: 0.9rem;
-  color: rgba(255, 255, 255, 0.75);
+  color: hsla(0deg, 0%, 100%, 0.75);
   line-height: 1.7;
   margin-bottom: 2.5rem;
 }
@@ -80,7 +80,7 @@ h6 {
   font-size: 1.5rem;
 }
 .stats-type {
-  color: rgba(255, 255, 255, 0.6);
+  color: hsla(0deg, 0%, 100%, 0.6);
   text-transform: uppercase;
   font-size: 0.75rem;
   letter-spacing: 1px;
@@ -95,11 +95,11 @@ h6 {
 
 .attribution a {
   text-decoration: none;
-  color: #3e52a3;
+  color: hsl(228deg, 45%, 44%);
   transition: color 0.3s ease;
 }
 .attribution a:hover {
-  color: #aa5cdb;
+  color: hsl(277deg, 64%, 61%);
 }
 
 @media (min-width: 1024px) {
